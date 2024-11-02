@@ -1,0 +1,139 @@
+
+/*Paleta de colores
+#EEEDEB
+#E6B9A6
+#939185
+#2F3645
+*/
+
+/* Fonts: @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') */
+
+/* font-family: "Bebas Neue", sans-serif */
+
+*{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Header*/
+
+h1 {font-weight: bolder;
+font-size: 10rem;
+color: #064d2dca
+}
+
+header {
+background-color: #E6B9A6;
+
+}
+
+
+.logo {width: 80px;}
+
+.lista-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+    width: 100 px;
+    height: 100 px;
+    position: sticky;
+}
+
+
+.lista-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    h2 {color:#8d4187c9 ;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
+    font-family: "Bebas Neue", sans-serif; 
+}
+
+    background-image: url(../medios/banner.png);
+    height: 450px;
+
+}
+
+
+/*Main*/
+
+h2 {font-size: 5rem;
+}
+
+
+.lista-nav-2 {
+    list-style: none;
+}
+
+.lista-nav-2 a {
+color: black;
+text-decoration: none;
+
+;}
+
+.lista-nav-3 {
+    list-style: none
+}
+
+h3 {font-size: 3rem
+    ;}
+
+
+
+/*Footer*/
+
+.instagram {width: 90px;}
+
+.tiktok {width: 90px;}
+
+.american {width: 90px;}
+
+.visa {width: 90px;}
+
+.whatsapp {width: 90px;}
+
+footer {
+    background-color: #939185;
+    }
+
+.whatsapp {
+
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    position-anchor: 100px;
+
+
+    /*Flexbox*/
+
+    display: flex;
+    flex-direction: row;
+    bottom: 70px;
+    right: 20px;
+
+
+}
+
+h4 {font-weight: bolder;
+font-size: 2rem;}
+
+.footer { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
